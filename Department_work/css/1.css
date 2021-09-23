@@ -1,0 +1,16 @@
+div{
+    height:1em;
+}
+.left,.right{
+    padding:1px 0.5em;
+    background:#fff;
+    float:right;
+}
+.left{
+    float:left;
+    clear:both;
+}
+.dotted{
+    border-bottom: 1px dotted grey;
+    margin-bottom:2px;
+}

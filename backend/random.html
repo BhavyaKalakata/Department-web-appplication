@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <select id="activitySelector">
+      <option value="addNew">Add New Item</option>
+    </select>
+
+    <script type="text/javascript">
+      var activities = document.getElementById("activitySelector");
+
+activities.addEventListener("click", function() {
+    var options = activities.querySelectorAll("option");
+    var count = options.length;
+    if(typeof(count) === "undefined" || count < 2)
+    {
+        addActivityItem();
+    }
+});
+
+activities.addEventListener("change", function() {
+    if(activities.value == "addNew")
+    {
+        addActivityItem();
+    }
+    console.log(activities.value);
+});
+
+function addActivityItem() {
+    alert("Adding an item");
+
+    var option = document.createElement("option");
+    option.value = "test";
+    option.innerHTML = "test";
+
+    activities.appendChild(option);
+}
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,501 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css\dept1.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/dept1.css">
+<link rel="stylesheet" type="text/css" href="css/modal.css">
+<!-- <link rel="stylesheet" href="modal.css"> -->
+<script type="application/javascript" src="js/menu.js"></script>
+<title></title>
+</head>
+<body>
+<div id="ram">
+<div class="logo">
+<img src="images\logo.jpg" width="10%" height="100%" align="left" style="margin-left:0px;"/>
+</div>
+<h1>SRI VENKATESWARA COLLEGE OF ENGINEERING</h1>
+<p style="
+    padding: 0px;
+    margin-top: -20px;
+">
+<p>Karakambadi Road,Opp.LIC Center,Tirupathi-517501</p>
+<p align="center" id="tag" style="
+    margin-top: -8px;
+"><strong>EDUCATION FOR A BETTER SOCIETY</strong></p>
+</div>
+
+
+<!-- TODO: About MCA modal_body -->
+<div id="aboutMcamodal" class="modal">
+  <div class="modal-content">
+    <div class="modal-body">
+      <p>aims to groom the software skills and strengthen the computer application aspect of students. This prepares the students for the industry requirements so that they can flourish in the corporate IT Sector. MCA courses are more focused on implementation of Programming Languages, IT Skills and other such concepts with a detailed curriculum.The MCA program focuses on providing a sound theoretical background as well as good practical exposure to students in the relevant areas. It is intended to provide modern, industry-oriented education in applied computer science. It aims at producing trained professionals who can successfully meet the demands of the information technology industry.</p>
+      <p>The doors to IT Industry are open after successfully completing . Graduates can pursue a plethora of opportunities after completing the MCA . IT, Software engineering, Network Engineering and Consultancy are the fields that offer jobs to candidates who have pursued MCA. Following are some of the job profiles that you can apply for after course completion: </p>
+      Software Developer<br>
+      Programmer<br>
+      System Engineer<br>
+      System Analyst<br>
+      System Administrator<br>
+      Troubleshooter<br>
+      Software Application Architect<br>
+      Web Designer and Developer<br>
+      Software Consultant<br>
+      Technical Writer<br>
+      <p>The average salary package of a fresher in this field is Rs. 3 lakh to Rs. 5 lakh per annum. However, packages depend on the coding and other IT skills of an individual. Highly skilled candidates can also bag salary packages worth Rs. 9.3 lakh per annum. Salary grows exponentially according to the experience of the candidate.</p>
+    </div>
+  </div>
+</div>
+
+<div id="fileUploadModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-body">
+      <form enctype="multipart/form-data" method="post">
+          <label>Upload File</label>
+          <input type="file" name="clg-file"><br><br>
+          <input type="submit" name="file-upload" value="Click Here to Upload">
+      </form>
+    </div>
+  </div>
+</div>
+
+<div id="notificationfileUploadModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-body">
+      <form enctype="multipart/form-data" method="post">
+          <label>Upload File</label>
+          <input type="file" name="clg-file"><br><br>
+          <input type="submit" name="file-upload" value="Click Here to Upload">
+      </form>
+    </div>
+  </div>
+</div>
+
+<div id="nav">
+  <ul>
+   <div class="dropdown1">
+        <a href="#" class="dropbtn1">Home</a>
+    </div>
+	<div class="dropdown1">
+     <a href="#" class="dropbtn1" onclick="openMcaModal();">About MCA</a>
+   </div>
+
+  <div class="dropdown1">
+        <a href="#" class="dropbtn1">Syllabus</a>
+        <div class="dropdown-content1">
+				<div class="dropdown-submenu">
+					<a href="#">First Semester</a>
+						<div class="submenu">
+							<div class="dropdown-submenu1">
+								<a href="syllabus\FirstSemester\tcs.pdf" target="_blank">Technical Communication Skills</a>
+								<a href="syllabus\FirstSemester\ps.pdf" target="_blank">Probability and Statistics</a>
+								<a href="syllabus\FirstSemester\ac.pdf" target="_blank">Accounting and Financial Management</a>
+								<a href="syllabus\FirstSemester\mfcs.pdf" target="_blank">Mathematical Foundations for Computer Science</a>
+								<a href="syllabus\FirstSemester\ipsp.pdf" target="_blank">Introduction to Problem Solving and Programming</a>
+								<a href="syllabus\FirstSemester\tcslab.pdf" target="_blank">English Language Communication Skills Lab</a>
+							    <a href="syllabus\FirstSemester\ipsplab.pdf" target="_blank">Computer Programming Lab</a>
+						        <a href="syllabus\FirstSemester\itlab.pdf" target="_blank">IT Workshop</a>
+						</div>
+					</div>
+					</div>
+					<div class="dropdown-submenu">
+					<a href="#">Second Semester</a>
+						<div class="submenu">
+							<div class="dropdown-submenu1">
+						<a href="syllabus\SecondSemester\hrm-converted.pdf" target="_blank">Organization Structure and Human Resource Management</a>
+						   <a href="syllabus\SecondSemester\ds-converted.pdf" target="_blank">Data Structures</a>
+						  <a href="syllabus\SecondSemester\co.pdf" target="_blank">Computer Organization</a>
+						   <a href="syllabus\SecondSemester\or-converted.pdf" target="_blank">Operations Research</a>
+						   <a href="syllabus\SecondSemester\java-converted.pdf" target="_blank">Java Programming</a>
+						   <a href="syllabus\SecondSemester\dslab.pdf"target="_blank">Data Structures Lab</a>
+						   <a href="syllabus\SecondSemester\javalab-converted.pdf" target="_blank">Java Programming Lab</a>
+						   <a href="syllabus\SecondSemester\acslab.pdf" target="_blank">Advanced Communication Skills Lab </a>
+						</div>
+						</div>
+						</div>
+						<div class="dropdown-submenu">
+					<a href="#">Third Semester</a>
+						<div class="submenu">
+							<div class="dropdown-submenu1">
+						 <a href="syllabus\ThirdSemester\dbms.pdf" target="_blank">Database Management Systems</a>
+							<a href="syllabus\ThirdSemester\cn-converted.pdf" target="_blank">Computer Networks</a>
+							<a href="syllabus\ThirdSemester\web.pdf" target="_blank">Web Technologies</a>
+						   <a href="syllabus\ThirdSemester\se-converted.pdf" target="_blank">Software Engineering</a>
+						   <a href="syllabus\ThirdSemester\os.pdf" target="_blank">Operating Systems</a>
+						   <a href="syllabus\ThirdSemester\wtlab.pdf" target="_blank">Web Technologies Lab</a>
+						   <a href="syllabus\ThirdSemester\dbms lab.pdf" target="_blank">Operating Systems Lab </a>
+						   <a href="syllabus\ThirdSemester\oslab.pdf" target="_blank">Database Management Systems Lab</a>
+						</div>
+						</div>
+						</div>
+					<div class="dropdown-submenu">
+						<a href="#">Fourth Semester</a>
+						<div class="submenu">
+							<div class="dropdown-submenu1">
+							     <a href="syllabus\FourthSemester\oodd.pdf" target="_blank">Object Oriented Analysis and Design</a>
+							     <a href="syllabus\FourthSemester\daa.pdf" target="_blank">Design and Analysis of Algorithms</a>
+							     <a href="syllabus\FourthSemester\linux.pdf" target="_blank">Linux Programming</a>
+							</div>
+						<div class="dropdown-submenu1">
+					              <a href="#">Elective I</a>
+					    <div class="submenu1">
+					                           <a href="syllabus\FourthSemester\ElectiveI\multimedia.pdf" target="_blank">Computer Graphics and Multimedia</a>
+												<a href="syllabus\FourthSemester\ElectiveI\iot.pdf" target="_blank">Internet of Things</a>
+												<a href="syllabus\FourthSemester\ElectiveI\ai.pdf" target="_blank">Artificial Intelligence</a>
+									</div>
+									</div>
+				<div class="dropdown-submenu1">
+					 <a href="#">Elective II</a>
+					 <div class="submenu1">
+					               <a href="syllabus\FourthSemester\ElectiveII\big.pdf" target="_blank">Big data Analytics</a>
+								   <a href="syllabus\FourthSemester\ElectiveII\script.pdf" target="_blank">Scripting Languages</a>
+								   <a href="syllabus\FourthSemester\ElectiveII\distributed.pdf" target="_blank"> Distributed Systems</a>
+							</div>
+						  </div>
+						       <a href="syllabus\FourthSemester\ooddlab.pdf" target="_blank">Object Oriented Analysis and Design Lab</a>
+						       <a href="syllabus\FourthSemester\daalab.pdf" target="_blank">Design and Analysis of Algorithms Lab  </a>
+								<a href="syllabus\FourthSemester\linuxlab.pdf" target="_blank">Linux Programming Lab </a>
+							</div>
+							</div>
+					<div class="dropdown-submenu">
+						<a href="#">Fifth Semester</a>
+						<div class="submenu">
+							<div class="dropdown-submenu1">
+							    <a href="syllabus\FifthSemester\cloud.pdf" target="_blank">Cloud Computing</a>
+						       <a href="syllabus\FifthSemester\datascience.pdf" target="_blank">Fundamentals of Data Science</a>
+						          <a href="syllabus\FifthSemester\testing.pdf" target="_blank">Software Testing</a>
+							</div>
+						<div class="dropdown-submenu1">
+					 <a href="#">Elective III</a>
+					 <div class="submenu1">
+					                        <a href="syllabus\FifthSemester\ElectiveIII\testing.pdf" target="_blank">Software Testing</a>
+											 <a href="syllabus\FifthSemester\ElectiveIII\humancom.pdf" target="_blank">Human Computer Interaction</a>
+											 <a href="syllabus\FifthSemester\ElectiveIII\python.pdf" target="_blank">Python Programming</a>
+									  </div>
+									  </div>
+				<div class="dropdown-submenu1">
+					 <a href="#">Elective IV</a>
+					 <div class="submenu1">
+					          <a href="syllabus\FifthSemester\ElectiveIV\softwareproject.pdf" target="_blank"> Software Project management</a>
+								<a href="syllabus\FifthSemester\ElectiveIV\mobile.pdf" target="_blank">Mobile Application Development</a>
+								<a href="syllabus\FifthSemester\ElectiveIV\datamining.pdf" target="_blank">Data Warehousing & Mining</a>
+							</div>
+							        </div>
+									       <a href="syllabus\FifthSemester\cloudlab.pdf" target="_blank">Cloud Computing Lab</a>
+										   <a href="syllabus\FifthSemester\data sciencelab.pdf" target="_blank">Data Science Lab</a>
+										   <a href="syllabus\FifthSemester\testinglab.pdf" target="_blank">Software Testing Lab</a>
+									</div>
+									</div>
+							<a href="syllabus\SixthSemester\six.pdf" target="_blank">Sixth Semester</a>
+	 </div>
+	   </div>
+	   <div class="dropdown1">
+        <a href="#" class="dropbtn1">Materials</a>
+        <div class="dropdown-content1">
+				<div class="dropdown-submenu">
+					<a href="#">Course Materails</a>
+						<div class="submenu">
+							<div class="dropdown-submenu1">
+							<div class="dropdown-submenu">
+						<a href="#">First Semester</a>
+						<div class="submenu1">
+							    <a href="materials\coursematerials\FirstSemester\tcs.pdf" target="_blank">Technical Communication Skills</a>
+								<a href="materials\coursematerials\FirstSemester\ps.pdf" target="_blank">Probability and Statistics</a>
+								<a href="materials\coursematerials\FirstSemester\ac.pdf" target="_blank">Accounting and Financial Management</a>
+								<a href="materials\coursematerials\FirstSemester\mfcs.pdf" target="_blank">Mathematical Foundations for Computer Science</a>
+								<a href="materials\coursematerials\FirstSemester\ipsp.pdf" target="_blank">Introduction to Problem Solving and Programming</a>
+								</div>
+							</div>
+					</div>
+						<div class="dropdown-submenu1">
+							<div class="dropdown-submenu">
+						<a href="#">Second Semester</a>
+						<div class="submenu1">
+							    <a href="materials\coursematerials\FirstSemester\tcs.pdf" target="_blank">Organization Structure and Human Resource Management</a>
+								<a href="materials\coursematerials\FirstSemester\ps.pdf" target="_blank">Data Structures</a>
+								<a href="materials\coursematerials\FirstSemester\ac.pdf" target="_blank">Computer Organization</a>
+								<a href="materials\coursematerials\FirstSemester\mfcs.pdf" target="_blank">Operations Research</a>
+								<a href="materials\coursematerials\FirstSemester\ipsp.pdf" target="_blank">Java Programming</a>
+								</div>
+							</div>
+					</div>
+						<div class="dropdown-submenu1">
+					<div class="dropdown-submenu">
+						<a href="#">Third Semester</a>
+					<div class="submenu1">
+							    <a href="materials\coursematerials\FirstSemester\tcs.pdf" target="_blank">Technical Communication Skills</a>
+								<a href="materials\coursematerials\FirstSemester\ps.pdf" target="_blank">Probability and Statistics</a>
+								<a href="materials\coursematerials\FirstSemester\ac.pdf" target="_blank">Accounting and Financial Management</a>
+								<a href="materials\coursematerials\FirstSemester\mfcs.pdf" target="_blank">Mathematical Foundations for Computer Science</a>
+								<a href="materials\coursematerials\FirstSemester\ipsp.pdf" target="_blank">Introduction to Problem Solving and Programming</a>
+								</div>
+							</div>
+					</div>
+											<div class="dropdown-submenu1">
+					<div class="dropdown-submenu">
+						<a href="#">Fourth Semester</a>
+					<div class="submenu1">
+							    <a href="materials\coursematerials\FirstSemester\tcs.pdf" target="_blank">Technical Communication Skills</a>
+								<a href="materials\coursematerials\FirstSemester\ps.pdf" target="_blank">Probability and Statistics</a>
+								<a href="materials\coursematerials\FirstSemester\ac.pdf" target="_blank">Accounting and Financial Management</a>
+								<a href="materials\coursematerials\FirstSemester\mfcs.pdf" target="_blank">Mathematical Foundations for Computer Science</a>
+								<a href="materials\coursematerials\FirstSemester\ipsp.pdf" target="_blank">Introduction to Problem Solving and Programming</a>
+								</div>
+							</div>
+					</div>
+						<div class="dropdown-submenu1">
+					<div class="dropdown-submenu">
+						<a href="#">Fifth Semester</a>
+					<div class="submenu1">
+							    <a href="materials\coursematerials\FirstSemester\tcs.pdf" target="_blank">Technical Communication Skills</a>
+								<a href="materials\coursematerials\FirstSemester\ps.pdf" target="_blank">Probability and Statistics</a>
+								<a href="materials\coursematerials\FirstSemester\ac.pdf" target="_blank">Accounting and Financial Management</a>
+								<a href="materials\coursematerials\FirstSemester\mfcs.pdf" target="_blank">Mathematical Foundations for Computer Science</a>
+								<a href="materials\coursematerials\FirstSemester\ipsp.pdf" target="_blank">Introduction to Problem Solving and Programming</a>
+								</div>
+							</div>
+					</div>
+
+		</div>
+		</div>
+
+						<div class="dropdown-submenu">
+					       <a href="#">Lab Manuals</a>
+						<div class="submenu">
+
+							<div class="dropdown-submenu1">
+							<div class="dropdown-submenu">
+						<a href="#">First Semester</a>
+						<div class="submenu1">
+
+								<a href="materials\labmanuals\FirstSemester\tcslab.pdf" target="_blank">English Language Communication Skills Lab</a>
+							    <a href="materials\labmanuals\FirstSemester\ipsplab.pdf" target="_blank">Computer Programming Lab</a>
+						        <a href="materials\labmanuals\FirstSemester\itlab.pdf" target="_blank">IT Workshop</a>
+								</div>
+								</div>
+								</div>
+								<div class="dropdown-submenu1">
+							<div class="dropdown-submenu">
+						<a href="#">Second Semester</a>
+						<div class="submenu1">
+
+								<a href="materials\labmanuals\FirstSemester\tcslab.pdf" target="_blank">Data Structures Lab</a>
+							    <a href="materials\labmanuals\FirstSemester\ipsplab.pdf" target="_blank">Java Programming Lab</a>
+						        <a href="materials\labmanuals\FirstSemester\itlab.pdf" target="_blank">Advanced Communication Skills Lab</a>
+								</div>
+								</div>
+								</div>
+								<div class="dropdown-submenu1">
+							<div class="dropdown-submenu">
+						<a href="#">Third Semester</a>
+						<div class="submenu1">
+
+								<a href="materials\labmanuals\FirstSemester\tcslab.pdf" target="_blank">Web Technologies Lab</a>
+							    <a href="materials\labmanuals\FirstSemester\ipsplab.pdf" target="_blank">Operating Systems Lab </a>
+						        <a href="materials\labmanuals\FirstSemester\itlab.pdf" target="_blank">Database Management Systems Lab</a>
+								</div>
+								</div>
+								</div>
+								<div class="dropdown-submenu1">
+							<div class="dropdown-submenu">
+						<a href="#">Fourth Semester</a>
+						<div class="submenu1">
+
+								<a href="materials\labmanuals\FirstSemester\tcslab.pdf" target="_blank">Object Oriented Analysis and Design Lab</a>
+							    <a href="materials\labmanuals\FirstSemester\ipsplab.pdf" target="_blank">Design and Analysis of Algorithms Lab</a>
+						        <a href="materials\labmanuals\FirstSemester\itlab.pdf" target="_blank">Linux Programming Lab</a>
+								</div>
+								</div>
+								</div>
+								<div class="dropdown-submenu1">
+							<div class="dropdown-submenu">
+						<a href="#">Fifth Semester</a>
+						<div class="submenu1">
+
+								<a href="materials\labmanuals\FirstSemester\tcslab.pdf" target="_blank">Cloud Computing Lab</a>
+							    <a href="materials\labmanuals\FirstSemester\ipsplab.pdf" target="_blank">Data Science Lab</a>
+						        <a href="materials\labmanuals\FirstSemester\itlab.pdf" target="_blank">Software Testing Lab</a>
+								</div>
+								</div>
+								</div>
+								</div>
+								</div>
+
+		</div>
+
+	</div>
+
+	 <div class="dropdown1">
+        <a href="#" class="dropbtn1">Events</a>
+        <div class="dropdown-content1">
+				<div class="dropdown-submenu">
+					<a href="#">Department Events</a>
+          <div class="custom-select" style="width:100%;">
+            <select>
+              <!-- <div class="submenu">
+                <div class="dropdown-submenu1"> -->
+                  <option value="0">Select</option>
+                  <option value="1">Internal</option>
+                  <option value="2">External</option>
+                  <option value="3">Organizing</option>
+                <!-- </div>
+              </div> -->
+          </select>
+          </div>
+			</div>
+						<div class="dropdown-submenu">
+					<a href="#" onclick="openFileUploadModal();">College Events</a>
+
+
+		</div>
+	</div>
+	</div>
+  <div class="dropdown1">
+        <a href="#" class="dropbtn1">Placements</a>
+    </div>
+    <div class="dropdown1">
+         <a href="#" class="dropbtn1">Others</a>
+         <div class="dropdown-content1">
+         <div class="dropdown-submenu">
+           <a href="#" onclick="openNotificationModal();">Notifications</a>
+           <a href="#">Time Tables</a>
+  </div>
+</div>
+</div>
+</div>
+  <div id="slider">
+  <div class="w3-content w3-section" style="max-width:1125px">
+  <img class="mySlides" src="images\1.jpg" style="width:1120px;height:420px;" >
+  <img class="mySlides" src="images\6.jpg"  style="width:1120px;height:420px;">
+  <img class="mySlides" src="images\dance.jpg"  style="width:1120px;height:420px;">
+  <img class="mySlides" src="images\5.jpg"  style="width:1120px;height:420px;">
+   <img class="mySlides" src="images\7.jpeg"  style="width:1120px;height:420px;">
+   </div>
+</div>
+
+
+
+</div>
+<div id="first">
+<h3 align="center"><u>EVENTS:</u></h3><br>
+<marquee behavior="scroll" direction="up" scrollamount="3">
+<div id="clr">
+<a href="#">AI WORKSHOP</a><br>
+<a href="#">CMAT</a><br>
+<a href="#">MPULSE</a><br>
+<a href="#">JOSH</a><br>
+<a href="#">FRESHERS DAY</a><br>
+</div>
+</marquee>
+<hr>
+<h3 align="center"><u>NOTIFICATIONS:</u></h3><br>
+<div id="clr">
+ <marquee behavior="scroll" direction="up" scrollamount="3">
+<a href="#">EXAMS</a><br>
+<a href="#">CONFERENCE</a><br>
+<a href="#"> PREVIOUS NEWS FROM COLLEGE</a><br>
+<a href="#"> PREVIOUS NEWS FROM COLLEGE</a><br>
+<a href="#"> PREVIOUS NEWS FROM COLLEGE</a><br>
+</marquee>
+</div>
+</div>
+<div id="slider">
+</div>
+<div class="footer">
+<div class="social">
+<p style="">
+<h3 style="color:rgb(128,0,251);font-family: Gothic;font-size: 19px;"><u>Contact With Social Media</u></h3>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a></p>
+
+<div class="address">
+	<p><b>
+		<strong><u>ADDRESS:</u></strong><br/>
+		 SV COLLEGE OF ENGINEERING
+         TIRUPATHI.515001.<br>
+        <strong>PHONE NO:</strong>
+        +91 8886644985(Principal)<br>
+        +91 8886644986(ADMIN OFFICE)<br>
+        <strong><u>EMAIL:</strong></u><br>
+        <i><b>info@svcolleges.edu.in<i></b><br></b>
+        <a><input type="button" value="SUGGESTIONS?" href="#"/></a>
+	</p>
+</div>
+<div class="map">
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.9889010258116!2d79.48377161431077!3d13.658438703131214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4991206ff455%3A0x37f34fc0f435a909!2sSV+College+of+Engineering!5e0!3m2!1sen!2sin!4v1565586743489!5m2!1sen!2sin" width="380px" height="120px" frameborder="0" style="border:1" allowfullscreen>
+</iframe></p>
+</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+ if (myIndex > x.length) {myIndex = 1}
+ x[myIndex-1].style.display = "block";
+ setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+// TODO: Code for About MCA modal
+var aboutMcamodal = document.getElementById('aboutMcamodal');
+//Gets the file upload Modal
+var fileUploadModal = document.getElementById('fileUploadModal');
+// Gets the Notification File Upload Modal
+var notificationfileUploadModal = document.getElementById('notificationfileUploadModal');
+
+function openMcaModal() {
+  aboutMcamodal.style.display = "block";
+}
+
+function closeMcaModal() {
+  var mcaSpan = document.getElementsByClassName('close')[0];
+  mcaSpan.style.display = "none";
+}
+
+//When clicked outside this below functions gets triggered.
+window.addEventListener('click',outsideClick);
+
+function openFileUploadModal() {
+  fileUploadModal.style.display = "block";
+}
+
+function openNotificationModal() {
+  notificationfileUploadModal.style.display = "block";
+}
+
+
+function outsideClick(e) {
+	if(e.target == aboutMcamodal) {
+		aboutMcamodal.style.display = 'none';
+	}
+
+  else if(e.target == fileUploadModal) {
+    fileUploadModal.style.display = 'none';
+  }
+  else if(e.target == notificationfileUploadModal) {
+    notificationfileUploadModal.style.display = 'none';
+  }
+}
+
+</script>
+<script type="text/javascript" src="js/customselect.js">
+
+</script>
+
+
+</body>
+
+</html>
